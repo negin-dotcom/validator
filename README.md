@@ -27,9 +27,11 @@ Passing the wrong type to a validator raises `TypeError` instead of simply retur
 
 # Installation
 ```bash
-git clone https://github.com/negin-dotcom/validator.git
-cd validator
-uv sync
+uv add git+https://github.com/negin-dotcom/validator.git
+```
+or
+```bash
+pip install git+https://github.com/negin-dotcom/validator.git
 ```
 
 Requires Python 3.12 or newer.
